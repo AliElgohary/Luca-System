@@ -1,0 +1,11 @@
+.sidebar {
+  @apply top-0 left-0 h-screen w-20 m-0
+   flex flex-col
+ text-white shadow-lg;
+
+  background-color: var(--gray-4);
+}
+
+.logout {
+  margin-top: auto;
+}

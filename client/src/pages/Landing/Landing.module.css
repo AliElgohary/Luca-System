@@ -1,0 +1,129 @@
+.main {
+  @apply bg-primary-3 h-full;
+}
+.title_text {
+  @apply text-2xl text-secondary-1 tracking-wider font-semibold text-opacity-80 
+     me-2 my-auto 
+     dark:text-white
+    transition duration-300 ease-in-out;
+}
+.title_hash_tag {
+  @apply text-xl text-secondary-1 tracking-wider font-semibold text-opacity-80 
+    me-2 my-auto 
+   transition duration-300 ease-in-out;
+}
+.logo {
+  @apply flex;
+}
+.shadow {
+  position: absolute;
+  display: block;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  border-radius: 100%;
+  z-index: -1;
+  @apply blur-3xl bg-gradient-to-b from-secondary-1 to-primary-3;
+}
+
+.shadow2 {
+  position: absolute;
+  display: block;
+  width: 700px;
+  height: 300px;
+  top: -100%;
+  right: 0;
+  border-radius: 100%;
+  z-index: -1;
+  @apply blur-3xl bg-gradient-to-r from-secondary-2 to-red-400;
+}
+
+.shapeDivider {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  @apply bg-zinc-900;
+}
+
+.shapeDivider svg {
+  position: relative;
+  display: block;
+  width: calc(119% + 1.3px);
+  height: 174px;
+}
+
+.shapeDivider .shapeFill {
+  @apply fill-primary-3;
+}
+
+/* callouts */
+
+.callout {
+  padding: 4rem;
+  background-color: #7b79e4;
+  color: #fff;
+}
+
+.callout__heading {
+  color: #fff;
+  margin-top: 0;
+  font-size: 3rem;
+}
+
+.callout .btn {
+  justify-self: center;
+  align-self: center;
+}
+
+.callout__content {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .callout .grid--1x2 {
+    grid-template-columns: 1fr auto;
+  }
+
+  .callout .btn {
+    justify-self: start;
+    margin: 0 2rem;
+  }
+
+  .callout__content {
+    text-align: start;
+  }
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (min-width: 768px) {
+  .grid--1x2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.btn {
+  text-align: center;
+  background-color: #3c70cf;
+  border-radius: 40px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  outline: 0;
+  padding: 2rem 4vw;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border: none;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}

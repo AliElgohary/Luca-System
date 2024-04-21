@@ -1,0 +1,46 @@
+@import '../../../styles/abstracts/variables';
+
+$borderWidth: 3px;
+.group {
+  position: relative;
+  margin: 1.3rem 0;
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: $borderWidth;
+    bottom: 0;
+    right: 100%;
+    left: 100%;
+    background-color: $primary;
+    transition: right ease-in-out 0.4s, left ease-in-out 0.4s;
+  }
+  &.focus {
+    &::after {
+      right: 0;
+      left: 0;
+    }
+  }
+  .input {
+    position: relative;
+    width: 100%;
+    font-size: 1.9rem;
+    color: $gray-2;
+    padding: 0.7rem 1.5rem;
+    outline: none;
+    background-color: $bg-1;
+
+    &::-webkit-input-placeholder {
+      color: $gray-4;
+    }
+    &::-moz-placeholder {
+      color: $gray-4;
+    }
+    &:-ms-input-placeholder {
+      color: $gray-4;
+    }
+    &:-moz-placeholder {
+      color: $gray-4;
+    }
+  }
+}

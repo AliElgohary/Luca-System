@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.draggable {
+  -webkit-app-region: drag;
+}
+body {
+  overflow: hidden;
+  overflow-y: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  background-color: white !important; /*remove me*/
+}
+html {
+  /* font-size: 62%; */
+}
+/* TODO:desktop*/
+/* html {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} */
+button {
+  outline: none;
+}
+
+/*
+ *  STYLE 1
+ */
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: rgb(26, 26, 29);
+}

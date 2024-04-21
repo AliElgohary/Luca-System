@@ -1,0 +1,4 @@
+.layout {
+  @apply flex-1 overflow-y-auto p-2;
+  background-color: var(--gray-3);
+}

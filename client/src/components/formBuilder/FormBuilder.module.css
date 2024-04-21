@@ -1,0 +1,4 @@
+.textInput {
+  @apply text-primary-3 placeholder:text-primary-5;
+  background-color: var(--gray-5);
+}

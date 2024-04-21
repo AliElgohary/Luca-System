@@ -1,0 +1,27 @@
+.sidebar_icon {
+  @apply relative flex flex-col items-center justify-center
+             h-14 w-14 mt-2 mb-4 mx-auto shadow-lg
+             hover:bg-secondary-3 hover:text-white
+             rounded-3xl hover:rounded-xl
+             transition-all duration-300 ease-linear
+             cursor-pointer;
+  background-color: var(--gray-3);
+  color: var(--dodgerBlue-1);
+}
+
+.sidebar_tooltip {
+  @apply absolute w-auto p-3 mx-3 min-w-max start-14
+     rounded-md shadow-md
+     text-white 
+     text-xs font-bold
+     transition-all duration-100 scale-0 translate-y-1/4 origin-left top-0 z-50;
+  background-color: var(--gray-4);
+}
+
+.sidebar_hr {
+  @apply h-1
+    border-primary-5 rounded-full
+     mx-2;
+
+  background-color: var(--gray-3);
+}

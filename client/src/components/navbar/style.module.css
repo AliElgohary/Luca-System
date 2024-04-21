@@ -1,0 +1,30 @@
+@import "../../styles/vars.css";
+
+.top_nav {
+  @apply flex flex-row items-center
+    px-3
+      justify-between w-full h-20 m-0 shadow-xl;
+
+  background-color: var(--gray-4);
+}
+.title_text {
+  @apply text-2xl text-secondary-1 tracking-wider font-semibold text-opacity-80 
+     me-2 my-auto 
+    transition duration-300 ease-in-out;
+}
+.title_hash_tag {
+  @apply text-xl text-secondary-1 tracking-wider font-semibold text-opacity-80 
+    me-2 my-auto 
+   transition duration-300 ease-in-out;
+}
+.logo {
+  @apply flex;
+}
+
+.nav_icon {
+  @apply text-primary-1 text-opacity-90 cursor-pointer transition duration-300 ease-in-out 
+    hover:text-secondary-3 ms-3 me-4;
+}
+.icons {
+  @apply flex;
+}

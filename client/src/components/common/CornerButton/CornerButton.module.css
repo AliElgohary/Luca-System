@@ -1,0 +1,10 @@
+.btn {
+  position: fixed;
+  @apply -start-0 end-0 bottom-0 rounded-full p-4 z-40 transition-transform duration-300;
+  background-color: var(--dodgerBlue-2);
+  opacity: 0.85;
+  margin: 1rem;
+}
+.btn:hover {
+  transform: translateY(-5px);
+}

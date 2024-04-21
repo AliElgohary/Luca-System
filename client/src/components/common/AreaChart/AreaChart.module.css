@@ -1,0 +1,4 @@
+.reportHeader {
+  background-color: var(--gray-2);
+  @apply text-white font-bold text-xl w-fit py-3 px-7 rounded-2xl mb-3 mx-auto;
+}

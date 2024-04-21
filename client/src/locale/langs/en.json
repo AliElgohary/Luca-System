@@ -1,0 +1,31 @@
+{
+  "title": "FashionFlow",
+  "home": "Home",
+  "name": "name",
+  "sales": "Sales",
+  "categories": "Categories",
+  "dashboard": "Dashboard",
+  "products": "products",
+  "receipt": "receipt",
+  "customers": "customers",
+  "report": "report",
+  "admin": "admin",
+  "signIn": {
+    "title": "Sign IN",
+    "username": "Username",
+    "password": "Password"
+  },
+  "home page": "Home Page",
+  "clothes": "clothes",
+  "Electron is a (CMS) content management system": "FashionFlow is a (CMS) content management system",
+  "for managing and storing clothing store data in an efficient way": "for managing and storing clothing store data in an efficient way",
+  "take your business to the next level": "take your business to the next level",
+  "Ready to get started ?": "Ready to get started ?",
+  "log in": "log in",
+  "logout": "logout",
+  "Resources": "Resources",
+  "Follow us": "Follow us",
+  "Legal": "Legal",
+  "© 2023 Electron Team.": "© 2023 FashionFlow Team.",
+  "callout": "Our platform is designed to help you streamline your workflow increase productivity and achieve your business goals, With our easy-to-use tools you can manage your projects collaborate with your team and stay on top of your schedule, Join our community of successful entrepreneurs and take your business to the next level."
+}

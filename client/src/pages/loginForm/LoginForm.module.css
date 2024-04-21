@@ -1,0 +1,5 @@
+@import "../../styles/vars.css";
+
+.container {
+  @apply flex flex-col justify-center h-screen bg-zinc-900;
+}
