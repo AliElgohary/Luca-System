@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+    mongo:
+        image: mongo:4.4.6
+        environment:
+            - MONGODB_DATABASE=electron
+        volumes:
+            - ./container-volumes/mongo:/data/db
+        networks:
+            - electron
+        ports:
+            - '27017:27017'
+networks:
+    electron:
+        driver: bridge
